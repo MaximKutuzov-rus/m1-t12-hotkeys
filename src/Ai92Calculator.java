@@ -3,7 +3,7 @@ public class Ai92Calculator {
     double tax = 0.13;
     double fullPrice = cena * (1 + tax);
 
-    public double calculate(double razmer) {
+    public double calculate(double dulo) {
         return razmer * fullPrice;
     }
 }
